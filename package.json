@@ -4,10 +4,10 @@
   "private": true,
   "description": "Personal registration, contract, Google Sheets, and Stripe payment flow.",
 "main": "sheets-lookup-server.js",
-  "scripts": {
-"start": "node sheets-lookup-server.js",
-"check": "node --check sheets-lookup-server.js"
-  },
+"scripts": {
+  "start": "node sheets-lookup-server.js",
+  "check": "node --check sheets-lookup-server.js"
+}
   "engines": {
     "node": ">=20"
   }
