@@ -1,0 +1,14 @@
+{
+  "name": "registration-contract-payments",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal registration, contract, Google Sheets, and Stripe payment flow.",
+  "main": "work/sheets-lookup-server.js",
+  "scripts": {
+    "start": "node work/sheets-lookup-server.js",
+    "check": "node --check work/sheets-lookup-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
